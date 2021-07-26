@@ -1,4 +1,4 @@
-name: Test palindrome 
+name: Test Palindrome
 
 on:
   push:

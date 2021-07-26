@@ -7,7 +7,7 @@ describe('Palindrome', () => {
 		expect(result).toBeTruthy();
 	});
 
-	it('should be return true when call with AABCAA', () => {
+	it('should be return false when call with AABCAA', () => {
 		const result = palindrome('AABCAA');
 
 		expect(result).toBeFalsy();
